@@ -7,7 +7,7 @@ int PetHunger = cat.hunger;
 Console.WriteLine($"Имя питомца: {PetName}, Возраст питомца: {PetAge}, Голод: {PetHunger}");//получаем значения из класса
 
 cat.name = "Фиса";//задаем значения полей объекта класса
-cat.age = 13;
+cat.age = 14;
 cat.hunger = 1;
 
 Console.WriteLine($"Имя питомца: {cat.name}, Возраст питомца: {cat.age}, Голод: {cat.hunger}");//выводит новые значения
